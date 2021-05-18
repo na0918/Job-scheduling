@@ -24,7 +24,6 @@ public class Main {
             L[min] = L[min] + t.nextInt(10);
         }
         int opt = 0;
-        int opt1 = 0;
         for(int i = 0; i < L.length; i++) {
             if(L[i] > opt) opt = L[i];
         }
