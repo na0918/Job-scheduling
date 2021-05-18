@@ -29,8 +29,5 @@ public class Main {
             if(L[i] > opt) opt = L[i];
         }
         System.out.println("최적해 : " +opt);
-
-        opt1 = opt / m;
-        System.out.println("근사해 : " +opt1);
     }
 }
